@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const NUMBER_OF_REQUESTS = 100;
 const targetVersion = process.argv[2];
-const targetPort = targetVersion === '13' ? 3000 : 3001;
+const targetPort = targetVersion === '13' ? 3003 : 3004;
 
 async function sleep(time) {
   return new Promise((resolve) => setTimeout(resolve, time));
